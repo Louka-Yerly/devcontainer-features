@@ -32,10 +32,6 @@ if [ $PIP3 = "true" ]; then
   pkgs+=("python3-pip")
 fi
 
-if [ $PYTHON_IS_PYTHON3 = "true" ]; then
-  pkgs+=("python-is-python3")
-fi
-
 if [ $UNZIP = "true" ]; then
   pkgs+=("unzip")
 fi
