@@ -1,0 +1,35 @@
+
+# Neovim Essentials (neovim-essentials)
+
+Provide essentials features for running neovim inside devcontainers
+
+## Example Usage
+
+```json
+"features": {
+    "ghcr.io/Louka-Yerly/devcontainer-features/neovim-essentials:0": {}
+}
+```
+
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| git | If true, git will be installed | boolean | true |
+| build_essential | If true, build essential will be installed | boolean | true |
+| wget | If true, wget will be installed | boolean | true |
+| curl | If true, curl will be installed | boolean | true |
+| python3 | If true, python3 will be installed | boolean | true |
+| pip3 | If true, pip3 will be installed | boolean | true |
+| unzip | If true, unzip will be installed | boolean | true |
+| clang | If true, clang will be installed | boolean | true |
+| rust | If true, rust will be installed | boolean | true |
+| ripgrep | If true, ripgrep will be installed | boolean | true |
+| fdfind | If true, fd-find will be installed | boolean | true |
+| treesitter | If true, tree-sitter-cli will be installed | boolean | true |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/Louka-Yerly/devcontainer-features/blob/main/src/neovim-essentials/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
