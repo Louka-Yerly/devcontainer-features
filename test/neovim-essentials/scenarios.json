@@ -1,9 +1,0 @@
-{
-    "test": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "neovim-essentials": {}
-        },
-        "remoteUser": "testu"
-    }
-}
