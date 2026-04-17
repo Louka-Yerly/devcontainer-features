@@ -64,7 +64,7 @@
             "default": true
         }
 
-        "tree-sitter-cli": {
+        "treesitter": {
             "type": "boolean",
             "description": "If true, tree-sitter-cli will be installed",
             "default": true
