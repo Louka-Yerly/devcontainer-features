@@ -13,7 +13,7 @@ cd "$TMPDIR"
 apt update
 apt install -y wget
 
-wget "https://github.com/neovim/neovim/releases/download/${NEOVIM_VERSION}/${COMPRESSED_FILE_NAME}"
+wget "https://github.com/neovim/neovim/releases/download/v${NEOVIM_VERSION}/${COMPRESSED_FILE_NAME}"
 tar -xvf "$COMPRESSED_FILE_NAME"
 rm "$COMPRESSED_FILE_NAME"
 
