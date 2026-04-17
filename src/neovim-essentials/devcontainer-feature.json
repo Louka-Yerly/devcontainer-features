@@ -1,0 +1,67 @@
+{
+    "name": "Neovim Essentials",
+    "id": "neovim-essentials",
+    "version": "0.0.1",
+    "description": "Provide essentials features for running neovim inside devcontainers",
+    "options": {
+        "git": {
+            "type": "boolean",
+            "description": "If true, git will be installed",
+            "default": true
+        },
+
+        "build_essential": {
+            "type": "boolean",
+            "description": "If true, build essential will be installed",
+            "default": true
+        },
+
+        "wget": {
+            "type": "boolean",
+            "description": "If true, wget will be installed",
+            "default": true
+        },
+
+        "curl": {
+            "type": "boolean",
+            "description": "If true, curl will be installed",
+            "default": true
+        },
+
+        "python3": {
+            "type": "boolean",
+            "description": "If true, python3 will be installed",
+            "default": true
+        },
+
+        "pip3": {
+            "type": "boolean",
+            "description": "If true, pip3 will be installed",
+            "default": true
+        },
+
+        "unzip": {
+            "type": "boolean",
+            "description": "If true, unzip will be installed",
+            "default": true
+        },
+
+        "rust": {
+            "type": "boolean",
+            "description": "If true, rust will be installed",
+            "default": true
+        },
+
+        "ripgrep": {
+            "type": "boolean",
+            "description": "If true, ripgrep will be installed",
+            "default": true
+        },
+
+        "fdfind": {
+            "type": "boolean",
+            "description": "If true, fd-find will be installed",
+            "default": true
+        }
+    }
+}
