@@ -1,0 +1,13 @@
+{
+    "name": "Neovim",
+    "id": "neovim",
+    "version": "0.0.1",
+    "description": "Install neovim",
+    "options": {
+        "neovim_version": {
+            "type": "string",
+            "description": "Neovim version to install (e.g. '0.11.5')",
+            "default": "0.11.5"
+        }
+    }
+}
