@@ -47,7 +47,7 @@ apt install -y "${pkgs[@]}"
 if [ $CLANG = "true" ]; then
     wget https://apt.llvm.org/llvm.sh
     chmod +x llvm.sh
-    sudo ./llvm.sh 18 all
+    ./llvm.sh 18 all
 fi
 
 if [ $RUST = "true" ]; then
