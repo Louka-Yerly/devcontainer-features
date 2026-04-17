@@ -53,6 +53,6 @@ if [ $RUST = "true" ]; then
     fi
 
     if [ $TREESITTER = "true" ]; then
-        cargo install fd-find
+        cargo install tree-sitter-cli
     fi
 fi
