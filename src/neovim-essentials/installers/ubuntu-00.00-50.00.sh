@@ -49,6 +49,6 @@ if [ $RUST = "true" ]; then
     fi
 
     if [ $FDFIND = "true" ]; then
-        cargo install fd
+        cargo install fd-find
     fi
 fi
