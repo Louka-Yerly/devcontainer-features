@@ -45,6 +45,7 @@ echo "${pkgs[@]}"
 apt install -y "${pkgs[@]}"
 
 if [ $CLANG = "true" ]; then
+    apt install lsb-release wget software-properties-common gnupg
     wget https://apt.llvm.org/llvm.sh
     chmod +x llvm.sh
     ./llvm.sh 18 all
