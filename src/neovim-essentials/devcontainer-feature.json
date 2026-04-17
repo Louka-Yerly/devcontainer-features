@@ -63,5 +63,11 @@
             "description": "If true, fd-find will be installed",
             "default": true
         }
+
+        "tree-sitter-cli": {
+            "type": "boolean",
+            "description": "If true, tree-sitter-cli will be installed",
+            "default": true
+        }
     }
 }

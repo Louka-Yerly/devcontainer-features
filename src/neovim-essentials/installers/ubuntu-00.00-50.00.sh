@@ -51,4 +51,8 @@ if [ $RUST = "true" ]; then
     if [ $FDFIND = "true" ]; then
         cargo install fd-find
     fi
+
+    if [ $TREESITTER = "true" ]; then
+        cargo install fd-find
+    fi
 fi

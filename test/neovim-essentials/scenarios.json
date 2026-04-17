@@ -1,5 +1,5 @@
 {
-    "my_favorite_color_is_green": {
+    "test": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "neovim-essentials": {}
