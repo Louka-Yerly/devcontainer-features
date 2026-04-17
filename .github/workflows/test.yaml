@@ -34,7 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          # - neovim-essentials
+          - neovim-essentials
     steps:
       - uses: actions/checkout@v4
 
