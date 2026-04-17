@@ -2,6 +2,10 @@
 
 set -euxo pipefail
 
+TMPDIR="$(mktemp -d)"
+trap 'rm -rf "${TMPDIR}"' EXIT
+cd "$TMPDIR"
+
 apt update
 
 env
@@ -39,6 +43,12 @@ fi
 echo "${pkgs[@]}"
 
 apt install -y "${pkgs[@]}"
+
+if [ $CLANG = "true" ]; then
+    wget https://apt.llvm.org/llvm.sh
+    chmod +x llvm.sh
+    sudo ./llvm.sh 18 all
+fi
 
 if [ $RUST = "true" ]; then
     curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain stable

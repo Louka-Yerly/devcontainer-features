@@ -46,6 +46,12 @@
             "default": true
         },
 
+        "clang": {
+            "type": "boolean",
+            "description": "If true, clang will be installed",
+            "default": true
+        }
+
         "rust": {
             "type": "boolean",
             "description": "If true, rust will be installed",
