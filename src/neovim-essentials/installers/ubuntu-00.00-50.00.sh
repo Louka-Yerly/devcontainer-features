@@ -42,6 +42,7 @@ apt install -y "${pkgs[@]}"
 
 if [ $RUST = "true" ]; then
     curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain stable
+    . "$HOME/.cargo/env"
 
     if [ $RIPGREP = "true" ]; then
         cargo install ripgrep
