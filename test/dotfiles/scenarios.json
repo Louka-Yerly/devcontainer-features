@@ -1,0 +1,11 @@
+{
+    "gitignore": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "dotefiles": {
+                "dotfile_repos": "${containerEnv:HOME}/test/gitignore",
+                "dotfile_paths": "https://github.com/github/gitignore.git",
+            }
+        }
+    }
+}

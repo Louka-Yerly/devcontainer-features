@@ -13,6 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
+          - dotfiles
           - neovim-essentials
           - neovim
         baseImage:
@@ -33,7 +34,9 @@ jobs:
     strategy:
       matrix:
         features:
+          - dotfiles
           - neovim-essentials
+          - neovim
     steps:
       - uses: actions/checkout@v6
 

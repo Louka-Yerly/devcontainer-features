@@ -1,0 +1,16 @@
+{
+    "name": "Dotfiles Installer",
+    "id": "dotfiles",
+    "version": "0.0.1",
+    "description": "Install neovim",
+    "options": {
+        "dotfile_repos": {
+            "type": "string",
+            "description": "Repositories where dotfile are stored (comma separated)",
+        },
+        "dotfile_paths": {
+            "type": "string",
+            "description": "paths to dotfile to install (comma separated)",
+        }
+    }
+}
